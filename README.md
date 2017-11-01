@@ -1,5 +1,5 @@
 # OPHOIS SSH Bastion host (JumpServer)
-![metrics.sh](https://raw.githubusercontent.com/pstadler/metrics.sh/assets/logo.png)
+![metrics.sh](https://i.imgur.com/YOlDYHW.png)
 
 ### What is OPHOIS?
 OPOHIS is a Linux ssh jump/bastion host. OPHOIS would act as central point through which all DevOps and Support staff access Linux production servers. OPHOIS SSH gateway includes a lot of security features that would help you manage and administer thousands of Linux servers at ease.
