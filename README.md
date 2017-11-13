@@ -49,6 +49,7 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			~~~
 
 	* Installing Google Authenticator
+	
 			~~~
 			git clone https://github.com/maxtepkeev/python-redmine.git
 			sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
@@ -65,6 +66,7 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			~~~
 
 	* Installing ttyrec package
+	
 			~~~
 			git clone https://github.com/maxtepkeev/python-redmine.git
 			cd python-redmine
@@ -81,6 +83,7 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			~~~
 			
 	* Installing ttyrec package
+	
 			~~~
 			git clone https://github.com/maxtepkeev/python-redmine.git
 			mkdir /etc/ophois
