@@ -54,13 +54,13 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 			sudo yum install google-authenticator
 			google-authenticator
-			vi /etc/pam.d/sshd
+			vi /etc/pam.d/sshd - add below line
 				auth required pam_google_authenticator.so nullok
-			vi  /etc/ssh/sshd_config
+			vi  /etc/ssh/sshd_config  - add below line
 				ChallengeResponseAuthentication yes
-			vi /etc/ssh/sshd_config
+			vi /etc/ssh/sshd_config  - add below line
 				AuthenticationMethods publickey,password publickey,keyboard-interactive
-			vi /etc/pam.d/sshd
+			vi /etc/pam.d/sshd - comment below line
 				#auth       substack     password-auth
 
 	* Installing ttyrec package
@@ -89,9 +89,9 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			cp ophois-bastion-host/src/*.py /usr/bin/ophois
 			cd /usr/bin/ophois 
 			chmod +x *.py
-			vi /etc/ssh/sshd_config
+			vi /etc/ssh/sshd_config - add below line
 				ForceCommand /usr/bin/ophois/ophlogin.py
-			vi /etc/pam.d/sshd
+			vi /etc/pam.d/sshd - add below line
 				session optional pam_exec.so seteuid usr/bin/ophlogout.py
 			
 		* Restart ssh
