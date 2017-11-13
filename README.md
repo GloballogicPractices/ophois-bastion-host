@@ -78,7 +78,7 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			if it fails, use below patch and compile it again.
 			https://github.com/habitat-sh/core-plans/blob/master/ttyrec/ttyrec-1.0.8.RHEL5.patch
 			
-	* Installing ttyrec package
+	* Installing OPHOIS BastionHost
 	
 			git clone https://github.com/maxtepkeev/python-redmine.git
 			mkdir /etc/ophois
