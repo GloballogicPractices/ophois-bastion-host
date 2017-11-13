@@ -50,7 +50,6 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 
 	* Installing Google Authenticator
 	
-			~~~
 			git clone https://github.com/maxtepkeev/python-redmine.git
 			sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 			sudo yum install google-authenticator
@@ -63,11 +62,9 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 				AuthenticationMethods publickey,password publickey,keyboard-interactive
 			vi /etc/pam.d/sshd
 				#auth       substack     password-auth
-			~~~
 
 	* Installing ttyrec package
 	
-			~~~
 			git clone https://github.com/maxtepkeev/python-redmine.git
 			cd python-redmine
 			python setup.py install
@@ -80,11 +77,9 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			make && make install
 			if it fails, use below patch and compile it again.
 			https://github.com/habitat-sh/core-plans/blob/master/ttyrec/ttyrec-1.0.8.RHEL5.patch
-			~~~
 			
 	* Installing ttyrec package
 	
-			~~~
 			git clone https://github.com/maxtepkeev/python-redmine.git
 			mkdir /etc/ophois
 			mkdir /var/log/ophois
@@ -94,9 +89,10 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			cp ophois-bastion-host/src/*.py /usr/bin/ophois
 			cd /usr/bin/ophois 
 			chmod +x *.py
-			add ForceCommand in sshd_config
-			add to /etc/pam.d/sshd
-			~~~
+			vi /etc/ssh/sshd_config
+				ForceCommand /usr/bin/ophois/ophlogin.py
+			vi /etc/pam.d/sshd
+				session optional pam_exec.so seteuid usr/bin/ophlogout.py
 			
 		* Restart ssh
 
