@@ -96,8 +96,13 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 
 ![image](https://user-images.githubusercontent.com/17526588/32765752-fa8f9c54-c931-11e7-9693-5ab4fd7dd5bc.png)
 
-* Logout Notification
-* 
+* Login Sucess/Security Thread Notification
+
+![image](https://user-images.githubusercontent.com/17526588/32765912-9c875970-c932-11e7-8360-0524d1473069.png)
+
+* Logout Sucess/Security Thread Notification
+
+![image](https://user-images.githubusercontent.com/17526588/32766013-07ae9a9c-c933-11e7-992d-2551faf2f608.png)
 
 
 ### Contributing
