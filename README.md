@@ -91,7 +91,7 @@ OPHOIS named after Egyptian god Wepwawet AKA Ophois, he was God of War, Victory,
 			
 		* Restart ssh
 
-### Notification Screenshots
+### OPHOIS Screenshots
 * Login Prompt
 
 ![image](https://user-images.githubusercontent.com/17526588/32765752-fa8f9c54-c931-11e7-9693-5ab4fd7dd5bc.png)
